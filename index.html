@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charet="UTF-8">
+    <title>Aweome-pyechart</title>
+                <cript type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <cript type="text/javascript" src="https://assets.pyecharts.org/assets/v5/bmap.min.js"></script>
+            
+            <cript type="text/javascript" src="https://api.map.baidu.com/getscript?v=2.0&ak=TPmWl3zGtonEvViHDZqslj1TqhRIgo7j"></script>
+
+    
+</head>
+<body >
+    <div id="69ec2e85de8d43af9ee55cfe62b4de64" class="chart-container" style="width:571px; height:481px; "></div>
+    <cript>
+        var chart_69ec2e85de8d43af9ee55cfe62b4de64 = echarts.init(
+            document.getElementById('69ec2e85de8d43af9ee55cfe62b4de64'), 'white', {renderer: 'canvas'});
+        var option_69ec2e85de8d43af9ee55cfe62b4de64 = {
+    "animation": true,
+    "animationThrehold": 2000,
+    "animationDuration": 1000,
+    "animationEaing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEaingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "erie": [],
+    "legend": [
+        {
+            "data": [],
+            "elected": {},
+            "how": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadiu": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPoition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "elector": false,
+            "electorPoition": "auto",
+            "electorItemGap": 7,
+            "electorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "how": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axiPointer": {
+            "type": "line"
+        },
+        "howContent": true,
+        "alwayShowContent": false,
+        "howDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "tranitionDuration": 0.4,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "\u4e07\u91cc\u6e56",
+            "target": "blank",
+            "subtarget": "blank",
+            "left": "center",
+            "bottom": "bottom",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false,
+            "textStyle": {
+                "color": "#fa5214"
+            }
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "type": "png",
+                "backgroundColor": "auto",
+                "connectedBackgroundColor": "#fff",
+                "show": true,
+                "title": "\u4fdd\u5b58\u4e3a\u56fe\u7247",
+                "pixelRatio": 1
+            },
+            "retore": {
+                "how": true,
+                "title": "\u8fd8\u539f"
+            },
+            "dataView": {
+                "how": true,
+                "title": "\u6570\u636e\u89c6\u56fe",
+                "readOnly": false,
+                "lang": [
+                    "\u6570\u636e\u89c6\u56fe",
+                    "\u5173\u95ed",
+                    "\u5237\u65b0"
+                ],
+                "backgroundColor": "#fff",
+                "textareaColor": "#fff",
+                "textareaBorderColor": "#333",
+                "textColor": "#000",
+                "buttonColor": "#c23531",
+                "buttonTextColor": "#fff"
+            },
+            "dataZoom": {
+                "how": true,
+                "title": {
+                    "zoom": "\u533a\u57df\u7f29\u653e",
+                    "back": "\u533a\u57df\u7f29\u653e\u8fd8\u539f"
+                },
+                "icon": {},
+                "filterMode": "filter"
+            },
+            "magicType": {
+                "how": true,
+                "type": [
+                    "line",
+                    "bar",
+                    "tack",
+                    "tiled"
+                ],
+                "title": {
+                    "line": "\u5207\u6362\u4e3a\u6298\u7ebf\u56fe",
+                    "bar": "\u5207\u6362\u4e3a\u67f1\u72b6\u56fe",
+                    "tack": "\u5207\u6362\u4e3a\u5806\u53e0",
+                    "tiled": "\u5207\u6362\u4e3a\u5e73\u94fa"
+                },
+                "icon": {}
+            }
+        }
+    },
+    "bmap": {
+        "center": [
+            121.571812,
+            29.821277
+        ],
+        "zoom": 5500,
+        "roam": true
+    }
+};
+        chart_69ec2e85de8d43af9ee55cfe62b4de64.etOption(option_69ec2e85de8d43af9ee55cfe62b4de64);
+                var bmap = chart_69ec2e85de8d43af9ee55cfe62b4de64.getModel().getComponent('bmap').getBMap();
+    </cript>
+</body>
+</html>
